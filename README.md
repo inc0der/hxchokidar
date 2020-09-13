@@ -1,7 +1,6 @@
 # Haxe Externs for chokidar
 
-## What is hxchokidar?
-Its is the haxe externs required to use [chokidar](https://github.com/paulmillr/chokidar) a neat wrapper around Node.js fs.watch / fs.watchFile / FSEvents in a type safe manner and the power of Haxe 💪.
+Use [chokidar](https://github.com/paulmillr/chokidar) a neat wrapper around Node.js fs.watch / fs.watchFile / FSEvents in a type safe manner and with the power of Haxe 💪.
 
 ## Dependencies
 - [hxnodejs](https://github.com/HaxeFoundation/hxnodejs)
