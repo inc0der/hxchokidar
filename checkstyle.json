@@ -1,0 +1,194 @@
+{
+  "defaultSeverity": "INFO",
+  "checks": [
+    {
+      "type": "UnusedLocalVar"
+    },
+    {
+      "type": "UnusedImport",
+      "props": {
+        "severity": "WARNING"
+      }
+    },
+    {
+      "type": "SimplifyBooleanExpression",
+      "props": {
+        "severity": "ERROR"
+      }
+    },
+    {
+      "type": "SimplifyBooleanReturn",
+      "props": {
+        "severity": "ERROR"
+      }
+    },
+    {
+      "type": "ArrayLiteral",
+      "props": {
+        "severity": "ERROR"
+      }
+    },
+    {
+      "type": "StringLiteral",
+      "props": {
+        "policy": "onlySingle",
+        "allowException": false,
+        "severity": "ERROR"
+      }
+    },
+    {
+      "type": "NeedBraces",
+      "props": {
+        "severity": "WARNING",
+        "allowSingleLineStatement": false,
+        "tokens": [
+          "FOR",
+          "IF",
+          "ELSE_IF",
+          "WHILE",
+          "DO_WHILE"
+        ]
+      }
+    },
+    {
+      "type": "EmptyLines",
+      "props": {
+        "max": 1,
+        "allowEmptyLineAfterSingleLineComment": false,
+        "requireEmptyLineAfterClass": false,
+        "requireEmptyLineAfterPackage": true,
+        "requireEmptyLineAfterAbstract": false,
+        "requireEmptyLineAfterInterface": false
+      }
+    },
+    {
+      "type": "MethodLength",
+      "props": {
+        "severity": "ERROR",
+        "max": 50,
+        "ignoreEmptyLines": true
+      }
+    },
+    {
+      "type": "UnnecessaryConstructor",
+      "props": {
+        "severity": "ERROR"
+      }
+    },
+    {
+      "type": "ParameterNumber",
+      "props": {
+        "severity": "INFO",
+        "max": 5,
+        "ignoreOverriddenMethods": false
+      }
+    },
+    {
+      "type": "FileLength",
+      "props": {
+        "severity": "WARNING",
+        "max": 1000
+      }
+    },
+    {
+      "type": "Indentation",
+      "props": {
+        "severity": "INFO",
+        "character": "  ",
+        "ignoreConditionals": false,
+        "ignoreComments": false,
+        "conditionalPolicy": "aligned",
+        "wrapPolicy": "larger"
+      }
+    },
+    {
+      "type": "IndentationCharacter",
+      "props": {
+        "character": "space"
+      }
+    },
+    {
+      "type": "ConditionalCompilation",
+      "props": {
+        "policy": "aligned",
+        "allowSingleline": true,
+        "severity": "INFO"
+      }
+    },
+    {
+      "type": "ConstantName",
+      "props": {
+        "severity": "ERROR",
+        "format": "^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$",
+        "tokens": [
+          "INLINE"
+        ]
+      }
+    },
+    {
+      "type": "DefaultComesLast",
+      "props": {
+        "severity": "WARNING"
+      }
+    },
+    {
+      "type": "MultipleVariableDeclarations",
+      "props": {
+        "severity": "WARNING"
+      }
+    },
+    {
+      "type": "Spacing",
+      "props": {
+        "severity": "INFO",
+        "spaceIfCondition": "should",
+        "spaceForLoop": "should",
+        "spaceWhileLoop": "should",
+        "spaceSwitchCase": "should",
+        "spaceCatch": "should",
+        "spaceAroundBinop": true,
+        "noSpaceAroundUnop": true,
+        "ignoreRangeOperator": true
+      }
+    },
+    {
+      "type": "WhitespaceAround",
+      "props": {
+        "tokens": [
+          "=",
+          "+",
+          "-",
+          "*",
+          "/",
+          "%",
+          ">",
+          "<",
+          ">=",
+          "<=",
+          "==",
+          "!=",
+          "&",
+          "|",
+          "^",
+          "&&",
+          "||",
+          "<<",
+          ">>",
+          ">>>",
+          "+=",
+          "-=",
+          "*=",
+          "/=",
+          "%=",
+          "<<=",
+          ">>=",
+          ">>>=",
+          "|=",
+          "&=",
+          "^=",
+          "=>"
+        ]
+      }
+    }
+  ]
+}

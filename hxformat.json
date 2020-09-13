@@ -1,0 +1,51 @@
+{
+  "whitespace": {
+    "typeHintColonPolicy": "after",
+    "colonPolicy": "after",
+    "caseColonPolicy": "after",
+    "objectFieldColonPolicy": "after",
+    "bracesConfig": {
+      "objectLiteralBraces": {
+        "openingPolicy": "after",
+        "closingPolicy": "before"
+      },
+      "blockBraces": {
+        "removeInnerWhenEmpty": true,
+        "closingPolicy": "before",
+        "openingPolicy": "around"
+      }
+    }
+  },
+  "indentation": {
+    "character": "  "
+  },
+  "wrapping": {
+    "maxLineLength": 120,
+    "callParameter": {
+      "rules": [
+        {
+          "type": "onePerLine",
+          "conditions": [
+            {
+              "cond": "lineLength >= n",
+              "value": 95
+            },
+            {
+              "cond": "anyItemLength >= n",
+              "value": 10
+            },
+            {
+              "cond": "itemCount >= n",
+              "value": 6
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "lineEnds": {
+    "blockCurly": {
+      "rightCurly": "after"
+    }
+  }
+}

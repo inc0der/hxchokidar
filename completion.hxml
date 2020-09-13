@@ -1,0 +1,6 @@
+-lib hxnodejs
+-cp src
+
+--no-output
+
+--js dummy.js
